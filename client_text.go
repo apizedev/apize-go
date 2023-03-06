@@ -57,7 +57,7 @@ type ContentMatchingResponse struct {
 
 type GrammarRequest struct {
 	Text    string `json:"text"`
-	Explain *bool  `json:"explain"`
+	Explain bool   `json:"explain"`
 }
 
 type GrammarResponse struct {
